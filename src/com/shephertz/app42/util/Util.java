@@ -1,4 +1,4 @@
-package com.shephertz.app42.paas.sample.util;
+package com.shephertz.app42.util;
 
 import java.io.File;
 import java.io.FileInputStream;

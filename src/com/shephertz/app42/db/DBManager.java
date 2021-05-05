@@ -1,4 +1,4 @@
-package com.shephertz.app42.paas.sample.db;
+package com.shephertz.app42.db;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -6,13 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import com.shephertz.app42.util.Util;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
-
-import com.shephertz.app42.paas.sample.util.Util;
 
 public class DBManager {
 

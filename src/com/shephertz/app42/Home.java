@@ -1,4 +1,4 @@
-package com.shephertz.app42.paas.sample;
+package com.shephertz.app42;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shephertz.app42.paas.sample.db.DBManager;
+import com.shephertz.app42.db.DBManager;
 
 /**
  * Servlet implementation class Log
